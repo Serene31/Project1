@@ -66,3 +66,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
