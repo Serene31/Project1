@@ -66,3 +66,4 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+- File: Trial/Trial.yaml
