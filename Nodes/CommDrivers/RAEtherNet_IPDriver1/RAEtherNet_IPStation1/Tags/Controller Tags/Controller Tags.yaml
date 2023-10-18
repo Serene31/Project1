@@ -1,0 +1,1006 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: Motors
+  Type: Motor
+  DataType: Motor
+  ValueRank: OneDimension
+  ArrayDimensions: [5]
+  Value: [{"TypeId":{"IdType":2,"Id":"be43cc578f8565fb6d7e3f5a9a820d7c","Namespace":7},"Body":{"CmdOffOn":false,"Power":0.0,"SetSpeed":0,"Speed":0,"Status":false}},{"TypeId":{"IdType":2,"Id":"be43cc578f8565fb6d7e3f5a9a820d7c","Namespace":7},"Body":{"CmdOffOn":false,"Power":0.0,"SetSpeed":0,"Speed":0,"Status":false}},{"TypeId":{"IdType":2,"Id":"be43cc578f8565fb6d7e3f5a9a820d7c","Namespace":7},"Body":{"CmdOffOn":false,"Power":0.0,"SetSpeed":0,"Speed":0,"Status":false}},{"TypeId":{"IdType":2,"Id":"be43cc578f8565fb6d7e3f5a9a820d7c","Namespace":7},"Body":{"CmdOffOn":false,"Power":0.0,"SetSpeed":0,"Speed":0,"Status":false}},{"TypeId":{"IdType":2,"Id":"be43cc578f8565fb6d7e3f5a9a820d7c","Namespace":7},"Body":{"CmdOffOn":false,"Power":0.0,"SetSpeed":0,"Speed":0,"Status":false}}]
+  Children:
+  - Name: 0
+    Type: Motor
+    DataType: Motor
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "be43cc578f8565fb6d7e3f5a9a820d7c",
+       "Namespace": 7
+      },
+      "Body": {
+       "CmdOffOn": false,
+       "Power": 0.0,
+       "SetSpeed": 0,
+       "Speed": 0,
+       "Status": false
+      }
+     }
+    Children:
+    - Name: CmdOffOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[0].CmdOffOn"
+    - Name: Power
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[0].Power"
+    - Name: SetSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[0].SetSpeed"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[0].Speed"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[0].Status"
+  - Name: 1
+    Type: Motor
+    DataType: Motor
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "be43cc578f8565fb6d7e3f5a9a820d7c",
+       "Namespace": 7
+      },
+      "Body": {
+       "CmdOffOn": false,
+       "Power": 0.0,
+       "SetSpeed": 0,
+       "Speed": 0,
+       "Status": false
+      }
+     }
+    Children:
+    - Name: CmdOffOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[1].CmdOffOn"
+    - Name: Power
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[1].Power"
+    - Name: SetSpeed
+      Id: g=3213fad0274ae1e21be99f568cfd5ec2
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[1].SetSpeed"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[1].Speed"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[1].Status"
+  - Name: 2
+    Type: Motor
+    DataType: Motor
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "be43cc578f8565fb6d7e3f5a9a820d7c",
+       "Namespace": 7
+      },
+      "Body": {
+       "CmdOffOn": false,
+       "Power": 0.0,
+       "SetSpeed": 0,
+       "Speed": 0,
+       "Status": false
+      }
+     }
+    Children:
+    - Name: CmdOffOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[2].CmdOffOn"
+    - Name: Power
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[2].Power"
+    - Name: SetSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[2].SetSpeed"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[2].Speed"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[2].Status"
+  - Name: 3
+    Type: Motor
+    DataType: Motor
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "be43cc578f8565fb6d7e3f5a9a820d7c",
+       "Namespace": 7
+      },
+      "Body": {
+       "CmdOffOn": false,
+       "Power": 0.0,
+       "SetSpeed": 0,
+       "Speed": 0,
+       "Status": false
+      }
+     }
+    Children:
+    - Name: CmdOffOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[3].CmdOffOn"
+    - Name: Power
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[3].Power"
+    - Name: SetSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[3].SetSpeed"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[3].Speed"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[3].Status"
+  - Name: 4
+    Type: Motor
+    DataType: Motor
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "be43cc578f8565fb6d7e3f5a9a820d7c",
+       "Namespace": 7
+      },
+      "Body": {
+       "CmdOffOn": false,
+       "Power": 0.0,
+       "SetSpeed": 0,
+       "Speed": 0,
+       "Status": false
+      }
+     }
+    Children:
+    - Name: CmdOffOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[4].CmdOffOn"
+    - Name: Power
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[4].Power"
+    - Name: SetSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[4].SetSpeed"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[4].Speed"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Motors[4].Status"
+  - Name: Speed
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+  - Name: SetSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetSpeed"
+- Name: MyTag1
+  Type: MyDataType
+  DataType: MyDataType
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "1dd5407ecae8695be773d492d727b621",
+     "Namespace": 7
+    },
+    "Body": {
+     "PropertyTag1": 0,
+     "PropertyTag2": 0,
+     "Tag3": 0
+    }
+   }
+  Children:
+  - Name: PropertyTag1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyTag1.PropertyTag1"
+  - Name: PropertyTag2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyTag1.PropertyTag2"
+  - Name: Tag3
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MyTag1.Tag3"
+- Name: SpindleArray
+  Type: Spindle
+  DataType: Spindle
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}},{"TypeId":{"IdType":2,"Id":"b6180ae8153fb22ba0009b9e4dc6add7","Namespace":7},"Body":{"current":0,"speed":0,"status":false}}]
+  Children:
+  - Name: 0
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[0].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[0].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[0].status"
+  - Name: 1
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[1].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[1].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[1].status"
+  - Name: 2
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[2].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[2].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[2].status"
+  - Name: 3
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[3].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[3].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[3].status"
+  - Name: 4
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[4].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[4].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[4].status"
+  - Name: 5
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[5].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[5].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[5].status"
+  - Name: 6
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[6].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[6].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[6].status"
+  - Name: 7
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[7].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[7].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[7].status"
+  - Name: 8
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[8].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[8].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[8].status"
+  - Name: 9
+    Type: Spindle
+    DataType: Spindle
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+       "Namespace": 7
+      },
+      "Body": {
+       "current": 0,
+       "speed": 0,
+       "status": false
+      }
+     }
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[9].current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[9].speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SpindleArray[9].status"
+- Name: TestIncrementTag
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TestIncrementTag"
+- Name: TestBoolTag
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TestBoolTag"
+- Name: Tank2
+  Type: Tank
+  DataType: Tank
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "d6276c6def262404e98d9f4085bb43aa",
+     "Namespace": 7
+    },
+    "Body": {
+     "Level": 0.0,
+     "SetPoint": 0.0,
+     "ValveInCmd": false,
+     "ValveInStatus": false,
+     "ValveOutCmd": false,
+     "ValveOutStatus": false
+    }
+   }
+  Children:
+  - Name: Level
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank2.Level"
+  - Name: SetPoint
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank2.SetPoint"
+  - Name: ValveInCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank2.ValveInCmd"
+  - Name: ValveInStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank2.ValveInStatus"
+  - Name: ValveOutCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank2.ValveOutCmd"
+  - Name: ValveOutStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank2.ValveOutStatus"
+- Name: Tank1
+  Type: Tank
+  DataType: Tank
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "d6276c6def262404e98d9f4085bb43aa",
+     "Namespace": 7
+    },
+    "Body": {
+     "Level": 0.0,
+     "SetPoint": 0.0,
+     "ValveInCmd": false,
+     "ValveInStatus": false,
+     "ValveOutCmd": false,
+     "ValveOutStatus": false
+    }
+   }
+  Children:
+  - Name: Level
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank1.Level"
+  - Name: SetPoint
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank1.SetPoint"
+  - Name: ValveInCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank1.ValveInCmd"
+  - Name: ValveInStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank1.ValveInStatus"
+  - Name: ValveOutCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank1.ValveOutCmd"
+  - Name: ValveOutStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tank1.ValveOutStatus"

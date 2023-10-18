@@ -1,0 +1,68 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Motor1Instance
+  Id: g=8c63f4a6ba8eafc4e9747c6f17c44c63
+  Type: Motor1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motor1
+  Id: g=f49744bd154cc249514fa62e1c7da3af
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Id: g=bf9cfcc2ca7d12120e82651e06365787
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motor2
+  Id: g=c1d30898ae9002a9e9597a0e1020e97f
+  Type: Motor1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motor3
+  Id: g=04d159efad1a10171115512d156f46a4
+  Type: Motor1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false

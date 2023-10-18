@@ -1,0 +1,172 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Spindle
+  Id: g=b6180ae8153fb22ba0009b9e4dc6add7
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Spindle",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b6180ae8153fb22ba0009b9e4dc6add7",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "speed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "status",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Spindle"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Motor
+  Id: g=be43cc578f8565fb6d7e3f5a9a820d7c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "be43cc578f8565fb6d7e3f5a9a820d7c",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "CmdOffOn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Power",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SetSpeed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Tank
+  Id: g=d6276c6def262404e98d9f4085bb43aa
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Tank",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d6276c6def262404e98d9f4085bb43aa",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Level",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SetPoint",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ValveInCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveInStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveOutCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveOutStatus",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Tank"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MyDataType
+  Id: g=1dd5407ecae8695be773d492d727b621
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MyDataType",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1dd5407ecae8695be773d492d727b621",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "PropertyTag1",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PropertyTag2",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Tag3",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MyDataType"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
